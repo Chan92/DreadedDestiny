@@ -1,612 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Story>
-	<!--[Start]-->
+
+	<!--[Warmup & introducing chapters]-->
+	<Chapter0>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] While you’re sleeping you remember the day when you met your friend ten years ago.</Line>
+			<Line>[Narrator] You got separated from your mother while shopping at the market. Trying to find your mother back you encountered a young girl about the same age as you.</Line>
+			<Line>[Narrator] Curiously you got closer to the girl who seemed frightened upon seeing you.</Line>
+			<Line>[Rose] Hello, who are you? I’m Rose.</Line>
+			<Line>[Mya] M…..Mya..</Line>
+			<Line>[Rose] Did you also separate from your mother? Don’t be scared, we will find our mothers together.</Line>
+			<Line>[Mya] Mother doesn’t want Mya. Mother doesn't wake up anymore.</Line>
+			<Line>[Rose] W- what about your father?</Line>
+			<Line>[Narrator] Mya shud her head as if to say she didn't have a father.</Line>
+			<Line>[Rose] Then how about you come with me? Our house is big, I’m sure mother and father wouldn't mind.</Line>
+			<Line>[Narrator] Mya hesitated for a while but in the end grabbed the hand you reached out.</Line>
+			<Line>[Narrator] ...</Line>
+			<Line>[Narrator] Meanwhile you're smiling as you’re dreaming about the past, your father already long gotten up and left for work….</Line>
+			<Line>[BlackScreen, 1]</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter1</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter0>
+	<Chapter0b>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] While you’re sleeping you remember the day when you met your friend ten years ago.</Line>
+			<Line>[Narrator] You got separated from your mother while shopping at the market. Trying to find your mother back you encountered a young girl about the same age as you.</Line>
+			<Line>[Narrator] Curiously you got closer to the girl who seemed frightened upon seeing you.</Line>
+			<Line>[Rose] Hello, who are you? I’m Rose.</Line>
+			<Line>[Mya] ...</Line>
+
+			<Line>[mya]	I.. don’t remember..</Line>
+			<Line>[Rose]Then how about I’ll find a name for you.</Line>
+			<Line>How about …[inputfield]……..</Line>
+			<Line>[input accepted]Yes ill be … [input denied]No…. just call me Myu instead…</Line>
+
+			<Line>[Rose] Did you also separate from your mother? Don’t be scared, we will find our mothers together.</Line>
+			<Line>[Mya] Mother doesn’t want Mya. Mother doesn't wake up anymore.</Line>
+			<Line>[Rose] W- what about your father?</Line>
+			<Line>[Narrator] Mya shud her head as if to say she didn't have a father.</Line>
+			<Line>[Rose] Then how about you come with me? Our house is big, I’m sure mother and father wouldn't mind.</Line>
+			<Line>[Narrator] Mya hesitated for a while but in the end grabbed the hand you reached out.</Line>
+			<Line>[Narrator] ...</Line>
+			<Line>[Narrator] Meanwhile you're smiling as you’re dreaming about the past, your father already long gotten up and left for work….</Line>
+			<Line>[BlackScreen, 1]</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter1</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter0b>
+
+	<!--[Prelude chapters]-->
 	<Chapter1>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
-			<Line>[BG:Balcony]‘Twas a gloomy evening, for the clouds dispersed as far as the moonlight glittered. </Line>
-			<Line>And there she was, Juliet, as an owl calling it’s prey in the dusk.</Line>
-			<Line>[J]Romeo oh Romeo, where art thou Romeo?</Line>
-			<Line>[J]Deny thy father and refuse thy name; Or, if thou wilt not, be but sworn my love, And I’ll no longer be a Capulet.</Line>
-			<Line>[@]</Line>
-			<Line>...</Line>
-			<Line>[J]Romeo?</Line>
-			<Line>[J]Romeo, it be thy line...</Line>
-			<Line>[J]Did Romeo bail again? Typical.</Line>
-			<Line>Just then, a splatter spilled on dear Juliet’s palm.</Line>
-			<Line>[J]What in the-?	What is this?</Line>
-			<Line>[J]And what is that foul smell?</Line>
-			<Line>[J]Romeo, thou hath better not left me here and started drinking.</Line>
+			<Line>[Emperor] How dare you?!</Line>
+			<Line>[Emperor]	Your mistake took the lives of many people! And why, only because of your greed?!</Line>
+			<Line>[Narrator] The emperor is enraged at the official who made a grave mistake in attempts for a promotion and his pride.</Line>
+			<Line>[Narrator] The official, already kneeling, bends over even further, shivering in fear.</Line>
+			<Line>[Father] P- please forgive me, your majesty. Please have mercy.</Line>
+			<Line>[Emperor] Silence! Your mistake can only be accounted for with your head!</Line>
+			<Line>[Emperor] Actually.. Not even your head will satisfy me to relieve my anger!</Line>
+			<Line>[Father] Your majesty, I beg you.</Line>
+			<Line>[Narrator] The emperor slams his hand on the table with a loud bang and sweeps off a few cups and plates which break right away.</Line>
+			<Line>[Narrator] Hearing the slam and broken plates, the eunuchs guarding the door shiver in fear. Whenever the emperor is displeased, they are the ones who have to deal with the afterblow.</Line>
+			<Line>[Narrator] Suddenly the head eunuch in the room hides a small smile and walks up to the emperor to whisper in his ear. The emperor smiles as he looks at the official.</Line>
+			<Line>[Emperor] So… you want a chance to pay for your mistake? I heard you still have an unmarried beautiful daughter.</Line>
+			<Line>[Father] Y-yes, your majesty.</Line>		
+			<Line>[Narrator] In surprise and relief the official relaxes his bow and raises slightly.</Line>
+			<Line>[Father] M-my eldest daughter is just about the right age to get married. If your majesty is interested, I can send her off to you.</Line>
+			<Line>[Emperor] If I’m interested? If I am interested?! I’m not interested in your brat!</Line>
+			<Line>[Narrator] The official looks confused at the emperor and carefully asks.</Line>
+			<Line>[Father] N-not interested? T-then what about her?</Line>
+			<Line>[Narrator] The emperor smiles.</Line>
+			<Line>[Emperor] General Stone is still looking for a wife. Marry your daughter to him and I’ll forgive you.</Line>
+			<Line>[Father] (G-General Stone...? Liam Stone..? The brute who kills without a second thought? I can't do this to Rose..)</Line>
+			<Line>[Narrator] In shock, the official bows all the way down to the ground again.</Line>
+			<Line>[Father] P-P-Please y-your m-m-majesty. Anyone but h-him.</Line>
+			<Line>[Emperor] THIS ISN'T A SUGGESTION, THIS IS AN ORDER!</Line>
+			<Line>[Father] Y-Your majesty...</Line>
+			<Line>[Emperor] You may choose, marry her off to the general, or grant me the heads of your whole clan.</Line>
+			<Line>[Father] B-but, your majesty.. I-I fear h-he might not like her.</Line>
+			<Line>[Emperor] If general Stone isn't interested, he may do with her as he pleases. She's at his disposal now, I don't care.</Line>		
+			<Line>[Emperor] Now get the fuck out of here!</Line>
+			<Line>[Narrator] The official shivers in regret. His begging caused him to involve his family. Understanding he can not push the emperor any further, he gives up.</Line>
+			<Line>[Father] I- I.. I understand..</Line>
+			<Line>[BlackScreen, 1]</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText>Climb up</OptionText>
-					<AfterText> Juliet Climbs up. </AfterText>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
 				<NextChapter>Chapter2</NextChapter>
-				<ButtonId>4</ButtonId>
+				<ButtonId>0</ButtonId>
 			</Option1>
-			<Option2>
-				<Text>
-					<OptionText>Leave him</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>5</Points>
-				<NextChapter>Ending1</NextChapter>
-				<ButtonId>5</ButtonId>
-			</Option2>
 		</Options>
 	</Chapter1>
-	
-	<!--[Normal mode-->
 	<Chapter2>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
-			<Line>[J]He’s not here… Suspicious… CHEATER! I MUST INVESTIGATE HIS ROOM</Line>
-			<Line>[BG:Bedroom][J]Nani? Why is there blood on the floor? I must investigate more!</Line>
+			<Line>[Mya] Rose...? Rose...?! Where are you hiding this time?</Line>
+			<Line>[Rose] Boo! Hahaha.</Line>
+			<Line>[Narrator] Rose jumps out of the storage box with a big smile on her face.</Line>
+			<Line>[Mya] Rose…</Line>
+			<Line>[Mya] You’re too old for this! Your mother would be really displeased if she knew.</Line>
+			<Line>[Rose] But it’s just you and you wouldn’t tell anyone.</Line>
+			<Line>[Narrator] Rose smiles as Mya looks around and sees the items on the ground which belong in the box Rose just jumped out of. Mya sighs and places the items back.</Line>
+			<Line>[Mya] Of course I won't tell anyone! I’m your personal maid and childhood friend. But if your parents find out, I’m the one in trouble for not stopping you.</Line>
+			<Line>[Narrator] Rose grabs Mya’s hands and smiles as a way of saying she won’t let anyone hurt her.</Line>
+
+			<Line>[Rose] Actually…. Tonight I dreamed of the time we met…</Line>
+			<Line>[Rose] Do you still remember?</Line>
+			<Line>[Narrator] Mya looks up in surprise and smiles gently.</Line>
+			<Line>[Mya] I do, I probably wouldn't have survived if not for that day…</Line>
+			<Line>[Mya] Your father wasn’t too pleased when you asked if I could stay.</Line>
+			<Line>[Rose] Until you offered to be my maid and promised to work hard. And you sure did work hard.</Line>
+			<Line>[Mya] Yeah.. aside from my chores you forced me to play with you too.</Line>
+			<Line>[Rose] Now don't say you didn't enjoy that.</Line>
+			<Line>[Narrator] Mya laughs at Rose's pouting face.</Line>
+			<Line>[Mya] I did enjoy that. As busy as I was, I always enjoyed fooling around with you and getting into trouble together.</Line>
+			<Line>[Narrator] Both Mya and Rose start to laugh as they remember the past.</Line>
+
+			<Line>[Mya] Rose, if you are done playing around, you should practice serving tea. You don't want to embarrass yourself in front of your husband when you're married.</Line>
+			<Line>[Rose] Don't worry about that, there's still a lot of time left before I get married. I don’t think my parents are looking for a husband yet.</Line>
+			<Line>[Mya] They probably feel embarrassed with your behaviour…</Line>
+			<Line>[Mya] Even if they aren't looking yet, you should still practice for when the time comes.</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[J]An attack happened here! That’s why there’s blood! </AfterText>
+					<OptionText>Practice serving tea</OptionText>
+					<AfterText>[Rose] Fine.. I’ll practice properly so you don't have to keep worrying about it.</AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
-				<NextChapter>Chapter3</NextChapter>
-				<ButtonId>6</ButtonId>
+				<NextChapter>Puzzle:Tea</NextChapter>
+				<ButtonId>0</ButtonId>
 			</Option1>
 			<Option2>
 				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[J]An accident happened here! That’s why there’s blood!</AfterText>
+					<OptionText>Go to the garden </OptionText>
+					<AfterText>[Rose] I will do it tomorrow.. The weather is so nice today, let's go to the garden.</AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
-				<NextChapter>Chapter3</NextChapter>
-				<ButtonId>7</ButtonId>
+				<NextChapter>Chapter:Garden</NextChapter>
+				<ButtonId>1</ButtonId>
 			</Option2>
 		</Options>
 	</Chapter2>
+	<ChapterGarden>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] Mya agreed and the two went to the garden.</Line>
+			<Line>[Narrator] Rose and Mya walk around the beautiful flowers enjoying their sweet scents. Suddenly Rose saw a butterfly and got an idea.</Line>
+			<Line>[Rose] Lets catch some butterflies!</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText>Practice serving tea</OptionText>
+					<AfterText>[Rose] Fine.. I’ll practice properly so you don't have to keep worrying about it.</AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Puzzle:Garden</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</ChapterGarden>
+
 	<Chapter3>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
-			<Line>[J]AH! IM BEING ATTACKED!</Line>
-			<Line>[J]Who was that? Where is Romeo? Need exploring!</Line>
-			<Line>[BG:Hall]...</Line>
+			<Line>[Narrator]Another maid ran up to Rose and Mya with a worried look on her face.</Line>
+			<Line>[Maid]Miss! Your father is looking for you and he seemed quite unhappy! Did you do anything again?</Line>
+			<Line>[Narrator]Rose and Mya look at eachother.</Line>
+			<Line>[Rose]I didn't do anything today…. I think…?</Line>
+			<Line>[Mya]… Are you giving trouble now without even realizing it? Come let's go to your father before he gets more upset.</Line>
+			<Line>[Narrator]Rose and Mya follow the other maid to Rose's father.</Line>
+			<Line>[Narrator]When they arrive they see how both Rose’s parents are waiting. Rose’s father seems quite sad while her mother is in tears.</Line>
+			<Line>[Narrator]Rose quietly walks up to them.</Line>
+			<Line>[Rose]What's wrong..?</Line>
+			<Line>[Narrator]Upon seeing Rose, her mother starts to cry even louder. She gets up to walk to Rose and hugs her.</Line>
+			<Line>[Mother]Is there really no other way?</Line>
+			<Line>[Narrator]Rose’s father shakes his head slowly. Rose stares confused at the two.</Line>
+			<Line>[Rose]Mother? Father? What happened?</Line>
+			<Line>[Father]Rose…. I’m so sorry…</Line>
+			<Line>[Narrator]Rose her father hesitates for a bit before he continues. Unsure how to break the news to her.</Line>
+			<Line>[Father]The emperor has ordered for you to marry the general…</Line>
+			<Line>[Rose]Marrying a general? Isn't that good news?</Line>
+			<Line>[Narrator]Rose asks hesitantly.</Line>
+			<Line>[Father]You have to marry general Stone..</Line>
+			<Line>[Father]Rumours say hes…</Line>
+			<Line>[Narrator]Rose tries to recognize the name as she couldn't remember where she heard it before.</Line>
+			<Line>[Father]He’s quite a brute..</Line>
+			<Line>[Father]You will be in danger if you marry him…</Line>
+			<Line>[Mother]Why did it have to be our child.. Why Rose..</Line>
+			<Line>[Narrator]Rose couldn't believe what she's hearing.</Line>
+			<Line>[Rose]Why..?! Why do I have to marry a bute?! Why me?!</Line>
+			<Line>[Father]I made a mistake and this is the punishment the emperor chose. There's nothing I can do, I can't refuse an imperial edict.</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
+					<OptionText>I understand... </OptionText>
+					<AfterText>[Rose] I understand… Don’t worry father… </AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
-				<NextChapter>Chapter4-Room1-part2</NextChapter>
-				<ButtonId>8</ButtonId>
+				<NextChapter>Chapter4a</NextChapter>
+				<ButtonId>0</ButtonId>
 			</Option1>
 			<Option2>
 				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
+					<OptionText>No! I wont accept this! </OptionText>
+					<AfterText>[Rose] No! I wont accept this! This is your fault! Why do I have to pay for it?!</AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
-				<NextChapter>Chapter4-Room2</NextChapter>
-				<ButtonId>9</ButtonId>
+				<NextChapter>Chapter4b</NextChapter>
+				<ButtonId>1</ButtonId>
 			</Option2>
-			<Option3>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-1</NextChapter>
-				<ButtonId>12</ButtonId>
-			</Option3>
-			<Option4>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-2</NextChapter>
-				<ButtonId>13</ButtonId>
-			</Option4>
-			<Option5>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-3</NextChapter>
-				<ButtonId>14</ButtonId>
-			</Option5>
 		</Options>
 	</Chapter3>
-	<Chapter3b-1>
+	<Chapter4a>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
-			<Line>[BG:Hall][J]I need a key for this door... I mean, I could just break in? But lets try another room first.</Line>
+			<Line>[Narrator] Rose closes her eyes and takes a deep breath</Line>
+			<Line>[Rose] If there's no choice, I’ll marry him.</Line>
+			<Line>[Rose] Maybe things won't turn out as bad as they seem.</Line>
+			<Line>[Narrator] Rose returns to her room. She sits down on her bed quietly.</Line>
+			<Line>[Rose] Since that man is dangerous, I’ll have to be careful..</Line>
+			<Line>[Rose] Should I make him love me? Should I make him send me away?</Line>
+			<Line>[Rose] Destiny is in my hands now.</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
-				<NextChapter>Chapter4-Room1-part2</NextChapter>
-				<ButtonId>8</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter4-Room2</NextChapter>
-				<ButtonId>9</ButtonId>
-			</Option2>
-			<Option3>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-1</NextChapter>
-				<ButtonId>12</ButtonId>
-			</Option3>
-			<Option4>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-2</NextChapter>
-				<ButtonId>13</ButtonId>
-			</Option4>
-			<Option5>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-3</NextChapter>
-				<ButtonId>14</ButtonId>
-			</Option5>
-		</Options>
-	</Chapter3b-1>
-	<Chapter3b-2>
-		<ChapterInfo> Normal </ChapterInfo>
-		<Lines>
-			<Line>[BG:Hall][J]This door seems locked.. Lets check another door.</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter4-Room1-part2</NextChapter>
-				<ButtonId>8</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter4-Room2</NextChapter>
-				<ButtonId>9</ButtonId>
-			</Option2>
-			<Option3>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-1</NextChapter>
-				<ButtonId>12</ButtonId>
-			</Option3>
-			<Option4>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-2</NextChapter>
-				<ButtonId>13</ButtonId>
-			</Option4>
-			<Option5>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-3</NextChapter>
-				<ButtonId>14</ButtonId>
-			</Option5>
-		</Options>
-	</Chapter3b-2>
-	<Chapter3b-3>
-		<ChapterInfo> Normal </ChapterInfo>
-		<Lines>
-			<Line>[BG:Hall][J]Damn! Why is the door to the kitchen locked.. I wanted to steal a snack before exploring further.</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter4-Room1-part2</NextChapter>
-				<ButtonId>8</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter4-Room2</NextChapter>
-				<ButtonId>9</ButtonId>
-			</Option2>
-			<Option3>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-1</NextChapter>
-				<ButtonId>12</ButtonId>
-			</Option3>
-			<Option4>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-2</NextChapter>
-				<ButtonId>13</ButtonId>
-			</Option4>
-			<Option5>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter3b-3</NextChapter>
-				<ButtonId>14</ButtonId>
-			</Option5>
-		</Options>
-	</Chapter3b-3>
-	<Chapter4-Room1-part1>
-		<ChapterInfo> Normal </ChapterInfo>
-		<Lines>
-			<Line>[BG:Room1][J]Lets look around.</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter4-Room1-part2</NextChapter>
+				<NextChapter> .. </NextChapter>
 				<ButtonId>0</ButtonId>
 			</Option1>
 		</Options>
-	</Chapter4-Room1-part1>
-	<Chapter4-Room1-part2>
+	</Chapter4a>
+	<Chapter4b>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
-			<Line>[BG:Room1][J]There is a suspicious door in the back! Also.. what is that over there?</Line>
+			<Line>[Narrator] Rose gets mad and raises her voice.</Line>
+			<Line>[Rose] It’s unfair! UNFAIR!!</Line>
+			<Line>[Mother] Rose..</Line>
+			<Line>[Rose] No!</Line>
+			<Line>[Rose] I won’t marry!</Line>
+			<Line>[Narrator] Rose’s father who felt sad and guilty before suddenly gets angry at her behaviour</Line>
+			<Line>[Father] Rose! You have no choice! You will marry him!</Line>
+			<Line>[Father] If I could decline, I wouldn't marry you to such a man. But we can't decline! You hear me?!</Line>
+			<Line>[Father] It’s either that or all of our heads..</Line>
+			<Line>[Rose] I don't care! I hate you!</Line>
+			<Line>[Narrator] Rose screams and cries before running out.</Line>
+			<Line>[Narrator] Rose runs to her room and drops in tears on her bed.</Line>
+			<Line>[Rose] If I really have to marry that guy…</Line>
+			<Line>[Rose] I will take destiny in my own hands… Lets see if he still wants me..</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText>Go through the door</OptionText>
-					<AfterText>[J]What a strange room... What is this? A note!? So Romeo is trying to frame Tybalt for killing everyone? What do I hear in the hallway!?</AfterText>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> door </unlockrequirement>
 				<Points>0</Points>
-				<NextChapter>Chapter5</NextChapter>
-				<ButtonId>10</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText>I dont trust that door</OptionText>
-					<AfterText>[J]There’s a note! So Tybalt killed everyone? What do I hear in the hallway!? </AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter5</NextChapter>
-				<ButtonId>11</ButtonId>
-			</Option2>
-		</Options>
-	</Chapter4-Room1-part2>
-	<Chapter4-Room2>
-		<ChapterInfo> Normal </ChapterInfo>
-		<Lines>
-			<Line>[BG:Room2][J]There is a strage note over there! Also.. what is that?</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[J]There’s a note! So Romeo is trying to frame Tybalt for killing everyone? What do I hear in the hallway!?</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> door </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter5</NextChapter>
-				<ButtonId>17</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText>[@]</OptionText>
-					<AfterText>[J]There’s a note! So Tybalt killed everyone? What do I hear in the hallway!? </AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter5</NextChapter>
-				<ButtonId>18</ButtonId>
-			</Option2>
-		</Options>
-	</Chapter4-Room2>
-	<Chapter5>
-		<ChapterInfo> Normal </ChapterInfo>
-		<Lines>
-			<Line>[BG:Hall][J]Tybalt, You’re here! And Romeo! You’re… alive-ish?</Line>
-			<Line>[J]Romeo, you want me to take revenge on Tybalt for killing everyone in the mansion?</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText> Kill Tybalt </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending2</NextChapter>
-				<ButtonId>1</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText> Dont Kill </OptionText>
-					<AfterText>[J]I don’t wanna kill him!</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter6</NextChapter>
-				<ButtonId>0</ButtonId>
-			</Option2>
-		</Options>
-	</Chapter5>
-	<Chapter6>
-		<ChapterInfo> Normal </ChapterInfo>
-		<Lines>
-			<Line>[J]What? You’re angry? You want me to join you in the afterlife so we can be together forever?</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText> Drink poison </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>1</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText> Dont drink poison </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter7</NextChapter>
-				<ButtonId>0</ButtonId>
-			</Option2>
-		</Options>
-	</Chapter6>
-	
-	<!--[Time rush started]-->
-	<Chapter7>
-		<ChapterInfo> Timed </ChapterInfo>
-		<Lines>
-			<Line>[J]Nooo Romeo I don’t want to join you in the afterlife don’t chase meeeee!</Line>
-			<Line>[J]Where am I gonna run? I only have 5 seconds before he catches up!</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText> Run to room 1 </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter8-Room1</NextChapter>
-				<ButtonId>15</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText> Run to room 2 </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter8-Room2</NextChapter>
-				<ButtonId>16</ButtonId>
-			</Option2>
-			<Option3>
-				<Text>
-					<OptionText> Timeout </OptionText>
-					<AfterText>Unable to run away, Romeo catches you.</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>[@]</ButtonId>
-			</Option3>
-		</Options>
-	</Chapter7>
-	<Chapter8-Room1>
-		<ChapterInfo> Timed </ChapterInfo>
-		<Lines>
-			<Line>[BG:Room1]HIIIIDE! 5 SECONDS!</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText> Hide by posing as a statue </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
+				<NextChapter> .. </NextChapter>
 				<ButtonId>0</ButtonId>
 			</Option1>
-			<Option2>
-				<Text>
-					<OptionText> Hide behind the stairs </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>1</ButtonId>
-			</Option2>
-			<Option3>
-				<Text>
-					<OptionText> Hide in suspicious room </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> door </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending4</NextChapter>
-				<ButtonId>2</ButtonId>
-			</Option3>
-			<Option4>
-				<Text>
-					<OptionText> Timeout </OptionText>
-					<AfterText>Unable to hide, Romeo catches you.</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>[@]</ButtonId>
-			</Option4>
 		</Options>
-	</Chapter8-Room1>
-	<Chapter8-Room2>
-		<ChapterInfo> Timed </ChapterInfo>
-		<Lines>
-			<Line>[BG:Room2]HIIIIDE! 5 SECONDS!</Line>
-		</Lines>
-		<Options>
-			<Option1>
-				<Text>
-					<OptionText> Hide in the curtains </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>0</ButtonId>
-			</Option1>
-			<Option2>
-				<Text>
-					<OptionText> Hide under a pile of books </OptionText>
-					<AfterText>[@]</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>1</ButtonId>
-			</Option2>
-			<Option3>
-				<Text>
-					<OptionText> Timeout </OptionText>
-					<AfterText>Unable to hide, Romeo catches you.</AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Ending3</NextChapter>
-				<ButtonId>[@]</ButtonId>
-			</Option3>
-		</Options>
-	</Chapter8-Room2>
+	</Chapter4b>
+
 
 	<!--Endings-->
 	<!--Chapter Template
@@ -616,56 +304,26 @@
 			<Line></Line>
 			<Line></Line>
 			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
-			<Line></Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>					
 					<OptionText> .. </OptionText>
-					<AfterText> .. </AfterText>
+					<AfterText> [@] </AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
 				<NextChapter>Chapter..</NextChapter>
-				<ButtonId>..</ButtonId>
+				<ButtonId>0</ButtonId>
 			</Option1>
 			<Option2>
 				<Text>
 					<OptionText> .. </OptionText>
-					<AfterText> .. </AfterText>
+					<AfterText> [@] </AfterText>
 				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
 				<Points>0</Points>
 				<NextChapter>Chapter..</NextChapter>
-				<ButtonId>..</ButtonId>
+				<ButtonId>1</ButtonId>
 			</Option2>
-			<Option3>
-				<Text>
-					<OptionText> .. </OptionText>
-					<AfterText> .. </AfterText>
-				</Text>
-				<prerequirement> none </prerequirement>
-				<unlockrequirement> none </unlockrequirement>
-				<Points>0</Points>
-				<NextChapter>Chapter..</NextChapter>
-				<ButtonId>..</ButtonId>
-			</Option3>
 		</Options>
 	</Chapter..>
 	-->

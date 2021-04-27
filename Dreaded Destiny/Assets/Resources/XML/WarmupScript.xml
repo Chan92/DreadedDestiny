@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Story>
+	<!--[Warmup & introducing chapters]-->
+	<!--[First beta, small changest for second beta]-->
+	<Chapter1>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] While you’re sleeping you remember the day when you met your friend ten years ago....</Line>
+			<Line>[Narrator] You got separated from your mother while shopping at the market. Trying to find your mother back you encountered a young girl about the same age as you.</Line>
+			<Line>[Narrator] Curiously you got closer to the girl who seemed frightened upon seeing you.</Line>
+			<Line>[Rose] Hello, who are you? I’m Rose.</Line>
+			<Line>[Mya] M…..Mya..</Line>
+			<Line>[Rose] Did you also separate from your mother? Don’t be scared, we will find our mothers together.</Line>
+			<Line>[Mya] Mother doesn’t want Mya. Mother doesn't wake up anymore.</Line>
+			<Line>[Rose] . . .</Line>
+			<Line>[Rose] W- what about your father?</Line>
+			<Line>[Narrator] Mya shud her head as if to say she didn't have a father either.</Line>
+			<Line>[Rose] Then how about you come with me? Our house is big, I’m sure mother and father wouldn't mind.</Line>
+			<Line>[Narrator] Mya hesitated for a while but in the end grabbed the hand you reached out.</Line>
+			<Line>[Narrator] . . .</Line>
+			<Line>[Narrator] Meanwhile you're smiling as you’re dreaming about the past, your father already long gotten up and left for work….</Line>
+			<Line>[BlackScreen, 1]</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter1</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter1>
+
+	<!--[Unfinished]-->
+	<Chapter0b>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] While you’re sleeping you remember the day when you met your friend ten years ago.</Line>
+			<Line>[Narrator] You got separated from your mother while shopping at the market. Trying to find your mother back you encountered a young girl about the same age as you.</Line>
+			<Line>[Narrator] Curiously you got closer to the girl who seemed frightened upon seeing you.</Line>
+			<Line>[Rose] Hello, who are you? I’m Rose.</Line>
+			<Line>[Mya] ...</Line>
+
+			<Line>[mya]	I.. don’t remember..</Line>
+			<Line>[Rose]Then how about I’ll find a name for you.</Line>
+			<Line>How about …[inputfield]……..</Line>
+			<Line>[input accepted]Yes ill be … [input denied]No…. just call me Myu instead…</Line>
+
+			<Line>[Rose] Did you also separate from your mother? Don’t be scared, we will find our mothers together.</Line>
+			<Line>[Mya] Mother doesn’t want Mya. Mother doesn't wake up anymore.</Line>
+			<Line>[Rose] W- what about your father?</Line>
+			<Line>[Narrator] Mya shud her head as if to say she didn't have a father.</Line>
+			<Line>[Rose] Then how about you come with me? Our house is big, I’m sure mother and father wouldn't mind.</Line>
+			<Line>[Narrator] Mya hesitated for a while but in the end grabbed the hand you reached out.</Line>
+			<Line>[Narrator] ...</Line>
+			<Line>[Narrator] Meanwhile you're smiling as you’re dreaming about the past, your father already long gotten up and left for work….</Line>
+			<Line>[BlackScreen, 1]</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter1</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter0b>
+
+</Story>
