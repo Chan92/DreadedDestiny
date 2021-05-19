@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BugHunt : MonoBehaviour {
@@ -50,18 +51,22 @@ public class BugHunt : MonoBehaviour {
 		if(grab) {
 			grabCount++;
 			catchCountText.text = "Catch: " + grabCount + "/5";
-			StartCoroutine(DebugMsg(true));
+			BugHuntUI.instance.CollectText();
+			//StartCoroutine(DebugMsg(true));
+			//StartCoroutine(RemoveMsgOverTime());
 			if(grabCount >= goalCount) {
-				gameover = true;
-				gameWin.SetActive(true);
+				GameEnd(true);
+				//gameWin.SetActive(true);
 			}
 		} else {
 			killCount++;
 			killCountText.text = "Lives: " + killCount + "/3";
-			StartCoroutine(DebugMsg(false));
+			BugHuntUI.instance.KillWarning();
+			//StartCoroutine(DebugMsg(false));
+			//StartCoroutine(RemoveMsgOverTime());
 			if(killCount >= endCount) {
-				gameover = true;
-				gameOverKill.SetActive(true);
+				GameEnd(false);			
+				//gameOverKill.SetActive(true);
 			}
 		}
 	}
@@ -80,14 +85,24 @@ public class BugHunt : MonoBehaviour {
 		}
 	}
 
+	IEnumerator RemoveMsgOverTime() {
+		yield return new WaitForSeconds(2.5f);
+		BugHuntUI.instance.NextText();
+	}
+
 	public void Dissapear() {
 		dissapearCount++;
 
-		if(dissapearCount >= bugs.Length && !gameover) {		
-			gameover = true;
-			if (gameOverGone != null)
-				gameOverGone.SetActive(true);
+		if(dissapearCount >= bugs.Length && !gameover) {
+			GameEnd(false);
+			//if (gameOverGone != null)
+				//gameOverGone.SetActive(true);
 		}
+	}
+
+	public void GameEnd(bool winStatus) {
+		gameover = true;
+		BugHuntUI.instance.EndDialog(winStatus);
 	}
 
 	IEnumerator BugSpawnBurst() {

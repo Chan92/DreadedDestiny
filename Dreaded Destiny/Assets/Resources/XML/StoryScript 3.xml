@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Story>
+	<!--[Prelude chapters]-->
+	<Chapter1>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>
+					<Character>Emperor</Character>
+					<Text>How dare you?!</Text>
+					<Type>Screaming</Type>					
+					<Audio>
+							<BGM>Null</BGM>
+							<Effect>Null</Effect>
+							<Dialog>Null</Dialog>
+					</Audio>
+					<Images>
+							<Background>0</Background>
+							<PictureLeft>Emperor_Angry</PictureLeft>
+							<PictureRight>None</PictureRight>
+					</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>Your mistake took the lives of many people! And why, only because of your greed?!</Text>
+				<Type>Screaming</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>The emperor is enraged at the official who made a grave mistake in attempts for a promotion and his pride.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>The official, already kneeling, bends over even further, shivering in fear.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>None</PictureLeft>
+					<PictureRight>Father_Scared</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>P- please forgive me, your majesty. Please have mercy.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>None</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>Silence! Your mistake can only be accounted for with your head!</Text>
+				<Type>Screaming</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Emperor_Angry</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<!--[Prelude chapters]-->
+			<Line>
+				<Character>Emperor</Character>
+				<Text>Actually.. [/n]Not even your head will satisfy me to relieve my anger!</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>Your majesty, I beg you.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>Your majesty, I beg you.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>The emperor slams his hand on the table with a loud bang and sweeps off a few cups and plates which break right away.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>Hearing the slam and broken plates, the eunuchs guarding the door shiver in fear. Whenever the emperor is displeased, they are the ones who have to deal with the afterblow.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>Suddenly the head eunuch in the room hides a small smile and walks up to the emperor to whisper in his ear. The emperor smiles as he looks at the official.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>So… you want a chance to pay for your mistake? I heard you still have an unmarried beautiful daughter.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>Y-yes, your majesty.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>In surprise and relief the official relaxes his bow and raises slightly.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>M-my eldest daughter is just about the right age to get married. If your majesty is interested, I can send her off to you.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>If I’m interested? If I am interested?! I’m not interested in your brat!</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>The official looks confused at the emperor and carefully asks.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>N-not interested? T-then what about her?</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>The emperor smiles.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>General Stone is still looking for a wife. Marry your daughter to him and I’ll forgive you.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>G-General Stone...? Liam Stone..? The brute who kills without a second thought? I can't do this to Rose..</Text>
+				<Type>Thinking</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>In shock, the official bows all the way down to the ground again.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>P-P-Please y-your m-m-majesty. Anyone but h-him.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>THIS ISN'T A SUGGESTION, THIS IS AN ORDER!</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>Y-Your majesty...</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>You may choose, marry her off to the general, or grant me the heads of your whole clan.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>B-but, your majesty.. I-I fear h-he might not like her.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>If general Stone isn't interested, he may do with her as he pleases. She's at his disposal now, I don't care.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Emperor</Character>
+				<Text>Now get the fuck out of here!</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>The official shivers in regret. His begging caused him to involve his family. Understanding he can not push the emperor any further, he gives up.</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Father</Character>
+				<Text>I- I.. I understand..</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Null</Background>
+					<PictureLeft>Null</PictureLeft>
+					<PictureRight>Null</PictureRight>
+				</Images>
+			</Line>
+			<Line>
+				<Character>Narrator</Character>
+				<Text>[@]</Text>
+				<Type>Neutral</Type>
+				<Audio>
+					<BGM>Null</BGM>
+					<Effect>Null</Effect>
+					<Dialog>Null</Dialog>
+				</Audio>
+				<Images>
+					<Background>Black</Background>
+					<PictureLeft>None</PictureLeft>
+					<PictureRight>None</PictureRight>
+				</Images>
+			</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter2</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter1>
+	<Chapter2>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Mya] Rose...? Rose...?! Where are you hiding this time?</Line>
+			<Line>[Rose] Boo! Hahaha.</Line>
+			<Line>[Narrator] Rose jumps out of the storage box with a big smile on her face.</Line>
+			<Line>[Mya] Rose…</Line>
+			<Line>[Mya] You’re too old for this! Your mother would be really displeased if she knew.</Line>
+			<Line>[Rose] But it’s just you and you wouldn’t tell anyone.</Line>
+			<Line>[Narrator] Rose smiles as Mya looks around and sees the items on the ground which belong in the box Rose just jumped out of. Mya sighs and places the items back.</Line>
+			<Line>[Mya] Of course I won't tell anyone! I’m your personal maid and childhood friend. But if your parents find out, I’m the one in trouble for not stopping you.</Line>
+			<Line>[Narrator] Rose grabs Mya’s hands and smiles as a way of saying she won’t let anyone hurt her.</Line>
+
+			<Line>[Rose] Actually…. Tonight I dreamed of the time we met…</Line>
+			<Line>[Rose] Do you still remember?</Line>
+			<Line>[Narrator] Mya looks up in surprise and smiles gently.</Line>
+			<Line>[Mya] I do, I probably wouldn't have survived if not for that day…</Line>
+			<Line>[Mya] Your father wasn’t too pleased when you asked if I could stay.</Line>
+			<Line>[Rose] Until you offered to be my maid and promised to work hard. And you sure did work hard.</Line>
+			<Line>[Mya] Yeah.. aside from my chores you forced me to play with you too.</Line>
+			<Line>[Rose] Now don't say you didn't enjoy that.</Line>
+			<Line>[Narrator] Mya laughs at Rose's pouting face.</Line>
+			<Line>[Mya] I did enjoy that. As busy as I was, I always enjoyed fooling around with you and getting into trouble together.</Line>
+			<Line>[Narrator] Both Mya and Rose start to laugh as they remember the past.</Line>
+
+			<Line>[Mya] Rose, if you are done playing around, you should practice serving tea. You don't want to embarrass yourself in front of your husband when you're married.</Line>
+			<Line>[Rose] Don't worry about that, there's still a lot of time left before I get married. I don’t think my parents are looking for a husband yet.</Line>
+			<Line>[Mya] They probably feel embarrassed with your behaviour…</Line>
+			<Line>[Mya] Even if they aren't looking yet, you should still practice for when the time comes.</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText>Practice serving tea</OptionText>
+					<AfterText>[Rose] Fine.. I’ll practice properly so you don't have to keep worrying about it.</AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Puzzle:Tea</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+			<Option2>
+				<Text>
+					<OptionText>Go to the garden </OptionText>
+					<AfterText>[Rose] I will do it tomorrow.. The weather is so nice today, let's go to the garden.</AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter:Garden</NextChapter>
+				<ButtonId>1</ButtonId>
+			</Option2>
+		</Options>
+	</Chapter2>
+	<ChapterGarden>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] Mya agreed and the two went to the garden.</Line>
+			<Line>[Narrator] Rose and Mya walk around the beautiful flowers enjoying their sweet scents. Suddenly Rose saw a butterfly and got an idea.</Line>
+			<Line>[Rose] Lets catch some butterflies!</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText>Practice serving tea</OptionText>
+					<AfterText>[Rose] Fine.. I’ll practice properly so you don't have to keep worrying about it.</AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Puzzle:Garden</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</ChapterGarden>
+
+	<Chapter3>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator]Another maid ran up to Rose and Mya with a worried look on her face.</Line>
+			<Line>[Maid]Miss! Your father is looking for you and he seemed quite unhappy! Did you do anything again?</Line>
+			<Line>[Narrator]Rose and Mya look at eachother.</Line>
+			<Line>[Rose]I didn't do anything today…. I think…?</Line>
+			<Line>[Mya]… Are you giving trouble now without even realizing it? Come let's go to your father before he gets more upset.</Line>
+			<Line>[Narrator]Rose and Mya follow the other maid to Rose's father.</Line>
+			<Line>[Narrator]When they arrive they see how both Rose’s parents are waiting. Rose’s father seems quite sad while her mother is in tears.</Line>
+			<Line>[Narrator]Rose quietly walks up to them.</Line>
+			<Line>[Rose]What's wrong..?</Line>
+			<Line>[Narrator]Upon seeing Rose, her mother starts to cry even louder. She gets up to walk to Rose and hugs her.</Line>
+			<Line>[Mother]Is there really no other way?</Line>
+			<Line>[Narrator]Rose’s father shakes his head slowly. Rose stares confused at the two.</Line>
+			<Line>[Rose]Mother? Father? What happened?</Line>
+			<Line>[Father]Rose…. I’m so sorry…</Line>
+			<Line>[Narrator]Rose her father hesitates for a bit before he continues. Unsure how to break the news to her.</Line>
+			<Line>[Father]The emperor has ordered for you to marry the general…</Line>
+			<Line>[Rose]Marrying a general? Isn't that good news?</Line>
+			<Line>[Narrator]Rose asks hesitantly.</Line>
+			<Line>[Father]You have to marry general Stone..</Line>
+			<Line>[Father]Rumours say hes…</Line>
+			<Line>[Narrator]Rose tries to recognize the name as she couldn't remember where she heard it before.</Line>
+			<Line>[Father]He’s quite a brute..</Line>
+			<Line>[Father]You will be in danger if you marry him…</Line>
+			<Line>[Mother]Why did it have to be our child.. Why Rose..</Line>
+			<Line>[Narrator]Rose couldn't believe what she's hearing.</Line>
+			<Line>[Rose]Why..?! Why do I have to marry a bute?! Why me?!</Line>
+			<Line>[Father]I made a mistake and this is the punishment the emperor chose. There's nothing I can do, I can't refuse an imperial edict.</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText>I understand... </OptionText>
+					<AfterText>[Rose] I understand… Don’t worry father… </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter4a</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+			<Option2>
+				<Text>
+					<OptionText>No! I wont accept this! </OptionText>
+					<AfterText>[Rose] No! I wont accept this! This is your fault! Why do I have to pay for it?!</AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter4b</NextChapter>
+				<ButtonId>1</ButtonId>
+			</Option2>
+		</Options>
+	</Chapter3>
+	<Chapter4a>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] Rose closes her eyes and takes a deep breath</Line>
+			<Line>[Rose] If there's no choice, I’ll marry him.</Line>
+			<Line>[Rose] Maybe things won't turn out as bad as they seem.</Line>
+			<Line>[Narrator] Rose returns to her room. She sits down on her bed quietly.</Line>
+			<Line>[Rose] Since that man is dangerous, I’ll have to be careful..</Line>
+			<Line>[Rose] Should I make him love me? Should I make him send me away?</Line>
+			<Line>[Rose] Destiny is in my hands now.</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter> .. </NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter4a>
+	<Chapter4b>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>[Narrator] Rose gets mad and raises her voice.</Line>
+			<Line>[Rose] It’s unfair! UNFAIR!!</Line>
+			<Line>[Mother] Rose..</Line>
+			<Line>[Rose] No!</Line>
+			<Line>[Rose] I won’t marry!</Line>
+			<Line>[Narrator] Rose’s father who felt sad and guilty before suddenly gets angry at her behaviour</Line>
+			<Line>[Father] Rose! You have no choice! You will marry him!</Line>
+			<Line>[Father] If I could decline, I wouldn't marry you to such a man. But we can't decline! You hear me?!</Line>
+			<Line>[Father] It’s either that or all of our heads..</Line>
+			<Line>[Rose] I don't care! I hate you!</Line>
+			<Line>[Narrator] Rose screams and cries before running out.</Line>
+			<Line>[Narrator] Rose runs to her room and drops in tears on her bed.</Line>
+			<Line>[Rose] If I really have to marry that guy…</Line>
+			<Line>[Rose] I will take destiny in my own hands… Lets see if he still wants me..</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>
+					<OptionText> [Anykey] </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter> .. </NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+		</Options>
+	</Chapter4b>
+
+
+	<!--Template-->
+	<!--Chapter Template
+	<Chapter..>
+		<ChapterInfo> Normal </ChapterInfo>
+		<Lines>
+			<Line>
+					<Character>Narrator</Character>
+					<Text>null</Text>
+					<Type>Neutral</Type>					
+					<Audio>
+							<BGM>Null</BGM>
+							<Effect>Null</Effect>
+							<Dialog>Null</Dialog>
+					</Audio>
+					<Images>
+							<Background>0</Background>
+							<PictureLeft>Null</PictureLeft>
+							<PictureRight>None</PictureRight>
+					</Images>
+			</Line>
+		</Lines>
+		<Options>
+			<Option1>
+				<Text>					
+					<OptionText> .. </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+				<ButtonId>0</ButtonId>
+			</Option1>
+			<Option2>
+				<Text>
+					<OptionText> .. </OptionText>
+					<AfterText> [@] </AfterText>
+				</Text>
+				<Points>0</Points>
+				<NextChapter>Chapter..</NextChapter>
+				<ButtonId>1</ButtonId>
+			</Option2>
+		</Options>
+	</Chapter..>
+	-->
+</Story>

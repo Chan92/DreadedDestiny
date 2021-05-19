@@ -10,8 +10,9 @@ public class StartDialog : StoryReader{
 	private GameObject startMenu;
 
 	void Start(){
-        ChangeScriptFile("XML/WarmupScript");
-		startMenu.SetActive(true);
+		ScriptManager.SetNewFile("XML/WarmupScript", "Chapter1");
+		ChangeScriptFile("XML/WarmupScript", "Chapter1");
+		if (startMenu) startMenu.SetActive(true);
 		Manager.currentSceneId = 0;
 	}
 
@@ -21,7 +22,8 @@ public class StartDialog : StoryReader{
 	}
 
 	public void NewScene(int sceneId) {
-		ChangeScriptFile("XML/StoryScript");
+		ScriptManager.SetNewFile("XML/StoryScript", "Chapter1");
+		//ChangeScriptFile("XML/StoryScript", "Chapter1");
 		Manager.instance.NewScene(sceneId);
 	}
 

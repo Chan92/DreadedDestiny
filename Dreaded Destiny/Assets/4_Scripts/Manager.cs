@@ -29,12 +29,12 @@ public class Manager : MonoBehaviour{
 			endingScreens[i].SetActive(false);
 		}
 
-		if(currentSceneId > 0) {
-			StoryReader.instance.ChangeScriptFile("XML/StoryScript");
-			NextText(false);
-		} else {
-			currentSceneId++;
-		}
+		//if(currentSceneId > 0) {
+		//	StoryReader.instance.ChangeScriptFile("XML/StoryScript", "Chapter1");
+		//	NextText(false);
+		//} else {
+		//	currentSceneId++;
+		//}
 	}
 
 	private void Update() {
@@ -47,7 +47,12 @@ public class Manager : MonoBehaviour{
 		if(button || !buttonsActive) {
 			if(!CheckGameOver()) {
 				SetButtons();
-				StoryReader.instance.FindData();
+
+				if(StoryReader.instance.currentChapter.ToLower().Contains("Puzzle".ToLower())) {
+					PuzzleScenes();
+				} else {
+					StoryReader.instance.FindData();
+				}
 			}
 		}
 	}
@@ -55,8 +60,10 @@ public class Manager : MonoBehaviour{
 	public void SetButtons() {
 		buttonsActive = false;
 
-		for(int i = 0; i < btInfo.Length; i++) {
-			btInfo[i].gameObject.SetActive(false);
+		if(btInfo.Length > 0) {
+			for(int i = 0; i < btInfo.Length; i++) {
+				btInfo[i].gameObject.SetActive(false);
+			}
 		}
 	}
 
@@ -73,6 +80,7 @@ public class Manager : MonoBehaviour{
 			return true;
 		}
 	}
+
 	public void RestartButton() {
 		SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().buildIndex);
 		Resources.UnloadUnusedAssets();
@@ -96,6 +104,27 @@ public class Manager : MonoBehaviour{
 			backgroundObj.sprite = backgroundSprites[enableId];
 		} 
 	}
+
+	private void PuzzleScenes() {
+		string name = StoryReader.instance.currentChapter;
+		name = name.Replace("Puzzle:", "");
+
+		switch(name) {
+			case "Tea":
+				NewScene(2);
+				break;
+			case "Garden":
+				NewScene(3);
+				break;
+		}
+
+		//NewScene(name);
+	}
+
+	public void SkipDialogButton() {
+		StoryReader.instance.SkipDialog();
+	}
+
 
 	//test
 	public IEnumerator TextOverTime(string text) {

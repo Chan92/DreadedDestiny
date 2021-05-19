@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/5_Scenes/1_PreludeScene.unity
     guid: f2759ca83c20ef141a2faf17578da211
+  - enabled: 1
+    path: Assets/5_Scenes/2_Unimplemented.unity
+    guid: 207e0552268e36b44932e16d0aec914b
+  - enabled: 1
+    path: Assets/5_Scenes/3_Garden.unity
+    guid: eb492590e43c65e48a3b2f5a60427e81
+  - enabled: 1
+    path: Assets/5_Scenes/4_Tea.unity
+    guid: 19254025fb451b74da8bb734bb0e21b5
   m_configObjects: {}

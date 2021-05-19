@@ -4,25 +4,71 @@
 	<Chapter1>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
-			<Line>[Emperor] How dare you?!</Line>
-			<Line>[Emperor]	Your mistake took the lives of many people! And why, only because of your greed?!</Line>
-			<Line>[Narrator] The emperor is enraged at the official who made a grave mistake in attempts for a promotion and his pride.</Line>
-			<Line>[Narrator] The official, already kneeling, bends over even further, shivering in fear.</Line>
-			<Line>[Father] P- please forgive me, your majesty. Please have mercy.</Line>
-			<Line>[Emperor] Silence! Your mistake can only be accounted for with your head!</Line>
-			<Line>[Emperor] Actually.. Not even your head will satisfy me to relieve my anger!</Line>
-			<Line>[Father] Your majesty, I beg you.</Line>
-			<Line>[Narrator] The emperor slams his hand on the table with a loud bang and sweeps off a few cups and plates which break right away.</Line>
-			<Line>[Narrator] Hearing the slam and broken plates, the eunuchs guarding the door shiver in fear. Whenever the emperor is displeased, they are the ones who have to deal with the afterblow.</Line>
-			<Line>[Narrator] Suddenly the head eunuch in the room hides a small smile and walks up to the emperor to whisper in his ear. The emperor smiles as he looks at the official.</Line>
-			<Line>[Emperor] So… you want a chance to pay for your mistake? I heard you still have an unmarried beautiful daughter.</Line>
-			<Line>[Father] Y-yes, your majesty.</Line>		
-			<Line>[Narrator] In surprise and relief the official relaxes his bow and raises slightly.</Line>
-			<Line>[Father] M-my eldest daughter is just about the right age to get married. If your majesty is interested, I can send her off to you.</Line>
-			<Line>[Emperor] If I’m interested? If I am interested?! I’m not interested in your brat!</Line>
-			<Line>[Narrator] The official looks confused at the emperor and carefully asks.</Line>
-			<Line>[Father] N-not interested? T-then what about her?</Line>
-			<Line>[Narrator] The emperor smiles.</Line>
+			<Line><Info>Emperor [background: Office][img:Emperor_angry]</Info>
+				<Text>How dare you?!</Text></Line>
+			<Line><Info>Emperor</Info>
+				<Text>Your mistake took the lives of many people! And why, only because of your greed?!</Text></Line>
+			<Line><Info>Narrator [img:none]</Info>
+				<Text>The emperor is enraged at the official who made a grave mistake in attempts for a promotion and his pride.</Text></Line>
+			<Line><Info>Narrator</Info>
+				<Text>The official, already kneeling, bends over even further, shivering in fear.</Text></Line>
+			<Line><Info>Father [img:Father_scared]</Info>
+				<Text>P- please forgive me, your majesty. Please have mercy.</Text></Line>
+			<Line><Info>Emperor [img:Emperor_angry]</Info>
+				<Text>Silence! Your mistake can only be accounted for with your head!</Text></Line>
+			<Line>
+				<Info>Emperor</Info>
+				<Text>Actually.. Not even your head will satisfy me to relieve my anger!</Text>
+			</Line>
+			<Line>
+				<Info>Father [img:Father_scared]</Info>
+				<Text>Your majesty, I beg you.</Text>
+			</Line>
+			<Line>
+				<Info>Narrator [img:none]</Info>
+				<Text>The emperor slams his hand on the table with a loud bang and sweeps off a few cups and plates which break right away.</Text>
+			</Line>
+			<Line>
+				<Info>Narrator</Info>
+				<Text>Hearing the slam and broken plates, the eunuchs guarding the door shiver in fear. Whenever the emperor is displeased, they are the ones who have to deal with the afterblow.</Text>
+			</Line>
+			<Line>
+				<Info>Narrator</Info>
+				<Text>Suddenly the head eunuch in the room hides a small smile and walks up to the emperor to whisper in his ear. The emperor smiles as he looks at the official.</Text>
+			</Line>
+			<Line>
+				<Info>Emperor [img:Emperor_meanSmile]</Info>
+				<Text>So… you want a chance to pay for your mistake? I heard you still have an unmarried beautiful daughter.</Text>
+			</Line>
+			<Line>
+				<Info>Father [img:Father_surprised]</Info>
+				<Text>Y-yes, your majesty.</Text>
+			</Line>
+			<Line>
+				<Info>Narrator [img:none]</Info>
+				<Text>In surprise and relief the official relaxes his bow and raises slightly.</Text>
+			</Line>
+			<Line>
+				<Info>Father [img:Father_nervous]</Info>
+				<Text>M-my eldest daughter is just about the right age to get married. If your majesty is interested, I can send her off to you.</Text>
+			</Line>
+			<Line>
+				<Info>Emperor [img:Emperor_angry]</Info>
+				<Text>If I’m interested? If I am interested?! I’m not interested in your brat!</Text>
+			</Line>
+			<Line>
+				<Info>Narrator [img:none]</Info>
+				<Text>The official looks confused at the emperor and carefully asks.</Text>
+			</Line>
+			<Line>
+				<Info>Father [img:Father_nervous]</Info>
+				<Text>N-not interested? T-then what about her?</Text>
+			</Line>
+			<Line>
+				<Info>Narrator [img:none]</Info>
+				<Text>The emperor smiles.</Text>
+			</Line>
+
 			<Line>[Emperor] General Stone is still looking for a wife. Marry your daughter to him and I’ll forgive you.</Line>
 			<Line>[Father] (G-General Stone...? Liam Stone..? The brute who kills without a second thought? I can't do this to Rose..)</Line>
 			<Line>[Narrator] In shock, the official bows all the way down to the ground again.</Line>
@@ -35,12 +81,12 @@
 			<Line>[Emperor] Now get the fuck out of here!</Line>
 			<Line>[Narrator] The official shivers in regret. His begging caused him to involve his family. Understanding he can not push the emperor any further, he gives up.</Line>
 			<Line>[Father] I- I.. I understand..</Line>
-			<Line>[Narrator][BlackScreen]</Line>
+			<Line>[BlackScreen, 1]</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText> Continue... </OptionText>
+					<OptionText> [Anykey] </OptionText>
 					<AfterText> [@] </AfterText>
 				</Text>
 				<Points>0</Points>
@@ -87,7 +133,7 @@
 				</Text>
 				<Points>0</Points>
 				<NextChapter>Puzzle:Tea</NextChapter>
-				<ButtonId>1</ButtonId>
+				<ButtonId>0</ButtonId>
 			</Option1>
 			<Option2>
 				<Text>
@@ -95,27 +141,27 @@
 					<AfterText>[Rose] I will do it tomorrow.. The weather is so nice today, let's go to the garden.</AfterText>
 				</Text>
 				<Points>0</Points>
-				<NextChapter>ChapterGarden</NextChapter>
-				<ButtonId>2</ButtonId>
+				<NextChapter>Chapter:Garden</NextChapter>
+				<ButtonId>1</ButtonId>
 			</Option2>
 		</Options>
 	</Chapter2>
-	
 	<ChapterGarden>
 		<ChapterInfo> Normal </ChapterInfo>
 		<Lines>
 			<Line>[Narrator] Mya agreed and the two went to the garden.</Line>
 			<Line>[Narrator] Rose and Mya walk around the beautiful flowers enjoying their sweet scents. Suddenly Rose saw a butterfly and got an idea.</Line>
+			<Line>[Rose] Lets catch some butterflies!</Line>
 		</Lines>
 		<Options>
 			<Option1>
 				<Text>
-					<OptionText>Point forwards</OptionText>
-					<AfterText>[Rose] Lets catch some butterflies!</AfterText>
+					<OptionText>Practice serving tea</OptionText>
+					<AfterText>[Rose] Fine.. I’ll practice properly so you don't have to keep worrying about it.</AfterText>
 				</Text>
 				<Points>0</Points>
 				<NextChapter>Puzzle:Garden</NextChapter>
-				<ButtonId>1</ButtonId>
+				<ButtonId>0</ButtonId>
 			</Option1>
 		</Options>
 	</ChapterGarden>
@@ -159,7 +205,7 @@
 				</Text>
 				<Points>0</Points>
 				<NextChapter>Chapter4a</NextChapter>
-				<ButtonId>1</ButtonId>
+				<ButtonId>0</ButtonId>
 			</Option1>
 			<Option2>
 				<Text>
@@ -168,7 +214,7 @@
 				</Text>
 				<Points>0</Points>
 				<NextChapter>Chapter4b</NextChapter>
-				<ButtonId>2</ButtonId>
+				<ButtonId>1</ButtonId>
 			</Option2>
 		</Options>
 	</Chapter3>
@@ -226,6 +272,8 @@
 		</Options>
 	</Chapter4b>
 
+
+	<!--Endings-->
 	<!--Chapter Template
 	<Chapter..>
 		<ChapterInfo> Normal </ChapterInfo>

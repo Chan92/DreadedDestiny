@@ -18,19 +18,31 @@ public class StoryReader:MonoBehaviour {
 
 	public string scriptFileName;
 	protected int buttonObjectId = 0;
+	protected int lastLineCount;
 
 	private void Awake() {
 		instance = this;
+		StartInfo();		
 	}
 
-	public void ChangeScriptFile(string newFileName) {
+	public void ChangeScriptFile(string newFileName, string chapterName) {
 		scriptFileName = newFileName;
-		currentChapter = "Chapter1";
+		currentChapter = chapterName;
 		currentLineId = 0;
 	}
 
+	private void StartInfo() {
+		if(ScriptManager.ScriptFileName != "" && ScriptManager.ScriptFileName != null) {
+			scriptFileName = ScriptManager.ScriptFileName;
+			currentChapter = ScriptManager.ScriptChapter;
+			currentLineId = 0;
+			Manager.instance.NextText(false);
+		}
+	}
+
 	public void FindData() {
-		TextAsset storyFile = Resources.Load<TextAsset>(scriptFileName);
+		TextAsset storyFile = Resources.Load<TextAsset>(ScriptManager.ScriptFileName);
+		//TextAsset storyFile = Resources.Load<TextAsset>(scriptFileName);
 		XmlDocument doc = new XmlDocument();
 		doc.LoadXml(storyFile.text);
 
@@ -59,7 +71,8 @@ public class StoryReader:MonoBehaviour {
 	}
 
 	protected int GetLineCount(XmlNodeList nl) {
-		return nl[0].ChildNodes[1].ChildNodes.Count;
+		lastLineCount = nl[0].ChildNodes[1].ChildNodes.Count;
+		return lastLineCount;
 	}
 
 	protected int GetButtonCount(XmlNodeList nl) {
@@ -69,6 +82,9 @@ public class StoryReader:MonoBehaviour {
 	protected void GetXmlLineInfo(XmlNodeList nl) {
 		string str = "";
 		str = nl[0].ChildNodes[1].ChildNodes[currentLineId].ChildNodes[0].Value;
+		//var name = nl[0].ChildNodes[1].ChildNodes[currentLineId].Attributes;
+		//print(name);
+		
 
 		if(!str.Contains("[@]") && str != null) {
 			str = CodeCheck(str);
@@ -105,8 +121,13 @@ public class StoryReader:MonoBehaviour {
 		Manager.instance.btInfo[buttonObjectId].gameObject.SetActive(true);
 	}
 
-	public string CodeCheck(string s) {
+	//still in beta
+	public void SkipDialog() {
+		currentLineId = lastLineCount -1;
+		FindData();
+	}
 
+	public string CodeCheck(string s) {
 		if(s.Contains("[")) {
 			if(s.Contains("[\n]")) {
 				//s = s.Replace('$', '\n');
